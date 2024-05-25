@@ -17,10 +17,14 @@ class STRAFINGPROTOTYPE_API UStrafe : public UBlueprintAsyncActionBase
 {
 	GENERATED_BODY()
 	
+public:
 	UFUNCTION(BlueprintCallable, meta = (BlueprintInternalUseOnly = "true"), Category = "Strafe System")
 	static UStrafe* AIStrafe();
 
 	UFUNCTION(BlueprintCallable, meta = (BlueprintInternalUseOnly = "true"), Category = "Strafe System")
 	static TArray<FVector> GetPerpendicularPoints(const FVector& PointA, const FVector& PointB, float spacing);
+
+	UFUNCTION(BlueprintCallable, meta = (BlueprintInternalUseOnly = "true"), Category = "Strafe System")
+	static void Orwlo_testing();
 
 };

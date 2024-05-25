@@ -33,3 +33,7 @@ TArray<FVector> UStrafe::GetPerpendicularPoints(const FVector& PointA, const FVe
 
     return points;
 }
+
+void UStrafe::Orwlo_testing() {
+
+}
